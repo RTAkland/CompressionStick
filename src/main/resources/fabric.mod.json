@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "compressionstick",
+  "version": "${version}",
+  "name": "CompressionStick",
+  "description": "压缩木棍",
+  "authors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/compressionstick/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "cn.rtast.compressionstick.Compressionstick"
+    ]
+  },
+  "mixins": [
+    "compressionstick.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
