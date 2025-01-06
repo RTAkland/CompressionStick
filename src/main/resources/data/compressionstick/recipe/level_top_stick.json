@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": [
+      "compressionstick:level_three_stick"
+    ]
+  },
+  "result": {
+    "id": "compressionstick:level_top_stick",
+    "count": 1
+  }
+}

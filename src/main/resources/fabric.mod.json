@@ -4,14 +4,19 @@
   "version": "${version}",
   "name": "CompressionStick",
   "description": "压缩木棍",
-  "authors": [],
+  "authors": [
+    "RTAkland"
+  ],
   "contact": {},
   "license": "Apache-2.0",
   "icon": "assets/compressionstick/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "main": [
-      "cn.rtast.compressionstick.Compressionstick"
+      {
+        "adapter": "kotlin",
+        "value": "cn.rtast.compressionstick.CompressionStick"
+      }
     ]
   },
   "mixins": [

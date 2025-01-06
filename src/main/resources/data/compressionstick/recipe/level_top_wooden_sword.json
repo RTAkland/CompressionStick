@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " X ",
+    " O "
+  ],
+  "key": {
+    "X": [
+      "compressionstick:level_top_stick"
+    ],
+    "O": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "compressionstick:level_top_wooden_sword",
+    "count": 1
+  }
+}
